@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\priya\\Documents\\Gender-Recog\\genderRecog-param-tun-5-layer-15-training-acc-check-5-0.001-CNN.model"
+all_model_checkpoint_paths: "C:\\Users\\priya\\Documents\\Gender-Recog\\genderRecog-param-tun-5-layer-15-training-acc-check-5-0.001-CNN.model"
