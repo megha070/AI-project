@@ -1,0 +1,37 @@
+As per report
+Chapter 3 Data Exploration and Description
+Section 3.2 
+	-> Dataset Description along with representation of data in tabulated from
+Section 3.3
+	-> Data exploration and deriving inferences from data exploratorty studies
+Section 3.4
+	-> Relevant Data visuals and plots thereby helping study data thoroughly and
+	   make data ready for input to further models
+Section 3.5 
+    -> Necessary observations
+	The file Data/Eardata/Images consists of Image folders consisting of
+	sample images of different people.
+	The file Data/ear.ipynb contains height and width visuals along with data of images
+	that needs preprocessing
+	the file Data/ear2.ipynb contains visuals of gender distribution and No.of images per
+	person along with data in tabulation form
+Chapter 4 Proposed Methodology
+Section 4.1 Gender-Indentification
+Subsection 4.1.1 Custom-CNN
+	-> The file Code/Gender-Idetification/Custom-CNN/Gender-Recog.ipynb contains model and visualizations 
+	   obtained by changing number of layers in the model built
+	-> The file Code/Gender-Idetification/Custom-CNN/Param-Tuning-Obs.ipynb contains model and visualizations 
+	   obtained by changing number of epochs while fitting the model
+	-> Some of the observations were taken manually and are mentioned clearly in the files, rest were loaded from saved checkpoint
+	-> The file Code/Gender-Idetification/Custom-CNN/read_data.ipynb reads the data and preprocesses the images
+
+Subsection 4.1.2 Transfer Learning
+	-> The file Code/Gender-Idetification/Transfer Learning	/Resnet50_Gender_Rec.ipynb contains ResNet-50 model and visualizations.
+	-> The file Code/Gender-Idetification/Transfer Learning	/VGG.ipynb contains VGG-16 model and visualizations.
+
+Section 4.2 Person Identification
+Subsection 4.2.1 Custom-CNN
+	-> The file Code/EarRecognition_CNN.ipynb contains Custom CNN for person identification
+Subsection 4.2.2 Transfer Learning
+	-> The file Code/PI_TransferLearning.ipynb contains Transer Learning for person identification
+	-> The file Code/results.pdf conatins visualizations.
